@@ -1,0 +1,29 @@
+{
+    
+    "configurations": [
+        {
+            "name": "stm32f103zet6",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Devlopment_tools/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include",
+                "C:/Devlopment_tools/GNU Tools ARM Embedded/7 2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include",
+                "app/inc",
+                "bsp/inc",
+                "Drivers/STM32F1xx_HAL_Driver/Inc",
+                "Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+                "Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "Drivers/CMSIS/Include",
+                "Middlewares/Third_Party/FatFs/src",
+                "Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xE"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
